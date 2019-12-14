@@ -40,7 +40,7 @@ public class Lab03_18_01
         }
 
         if (!weekDayName.isEmpty())
-            System.out.format("This is %s", weekDayName);
+            System.out.format("This is %s\n", weekDayName);
 
     }
 

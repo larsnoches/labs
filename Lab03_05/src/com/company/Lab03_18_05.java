@@ -23,8 +23,8 @@ public class Lab03_18_05
 
         System.out.println("There are numbers for sum via operator For:");
         System.out.println(Arrays.toString(numbers));
-        System.out.format("The sum of these numbers is: %d", sum);
-        System.out.print("\n\n");
+        System.out.format("The sum of these numbers is: %d\n", sum);
+        System.out.print("\n");
     }
 
     public static void getSumWhile(int count)
@@ -44,8 +44,8 @@ public class Lab03_18_05
 
         System.out.println("There are numbers for sum via operator While:");
         System.out.println(Arrays.toString(numbers));
-        System.out.format("The sum of these numbers is: %d", sum);
-        System.out.print("\n\n");
+        System.out.format("The sum of these numbers is: %d\n", sum);
+        System.out.print("\n");
     }
 
     public static void getSumDoWhile(int count)
@@ -66,8 +66,8 @@ public class Lab03_18_05
 
         System.out.println("There are numbers for sum via operator Do-While:");
         System.out.println(Arrays.toString(numbers));
-        System.out.format("The sum of these numbers is: %d", sum);
-        System.out.print("\n\n");
+        System.out.format("The sum of these numbers is: %d\n", sum);
+        System.out.print("\n");
     }
 
     public static void main(String[] args)

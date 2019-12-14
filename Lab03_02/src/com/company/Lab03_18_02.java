@@ -13,7 +13,6 @@ public class Lab03_18_02
         String weekDayName = inCmd.next();
 
         weekDayName = weekDayName.toLowerCase();
-        System.out.println(weekDayName);
 
         int weekDayNumber = 0;
         boolean weekDayNameInEnglish = true;
@@ -76,12 +75,12 @@ public class Lab03_18_02
 
             if (!weekDayNameInEnglish) {
                 if (weekDayNumber > 0)
-                    System.out.format("Номер введенного дня недели: %d", weekDayNumber);
+                    System.out.format("Номер введенного дня недели: %d\n", weekDayNumber);
                 else
                     System.out.println("Введенный день недели не существует.");
             }
             else {
-                System.out.format("The number day of week is %d", weekDayNumber);
+                System.out.format("The number day of week is %d\n", weekDayNumber);
             }
 
         }

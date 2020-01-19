@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 public class Lab05_17_06 {
 

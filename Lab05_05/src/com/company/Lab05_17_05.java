@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 public class Lab05_17_05 {
 
@@ -24,7 +24,7 @@ public class Lab05_17_05 {
 
     public void checkNumber()
     {
-        System.out.printf("The value if number is %d\n", number);
+        System.out.printf("The value number is %d\n", number);
     }
 
     public static void main(String[] args) {
